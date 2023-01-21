@@ -8,6 +8,13 @@ namespace Classes
 {
     internal class Car
     {
+        public Car()
+        { }
+
+        public Car(string make)
+        {
+            Make = make;
+        }
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
